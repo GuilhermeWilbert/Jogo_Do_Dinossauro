@@ -33,7 +33,7 @@
     100%{top: 150px}
 }
 
-#quadrado{
+#cacto{
     width: 20px;
     height: 20px;
     top: 180px;
@@ -41,11 +41,11 @@
     background-size: 20px 20px;
     position: relative;
     left: 480px;
-    animation: quadrado 1s infinite linear;
+    animation: cacto 1s infinite linear;
 }
 
 
-@keyframes quadrado {
+@keyframes cacto {
     0%{left: 480px;}
     100%{left: -40px;}
 }
