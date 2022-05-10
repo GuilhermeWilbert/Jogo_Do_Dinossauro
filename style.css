@@ -1,13 +1,15 @@
-body{
-    background-color: #fafafa;
-}
-
 *{
     margin: 0;
     padding: 0;
 }
 
-
+#game{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+}
 
 #personagem{
     width: 30px;
@@ -35,7 +37,7 @@ body{
     width: 20px;
     height: 20px;
     top: 180px;
-    background-image: url(imagens/c);
+    background-image: url(imagens/cactus.png);
     background-size: 20px 20px;
     position: relative;
     left: 480px;
@@ -47,18 +49,3 @@ body{
     0%{left: 480px;}
     100%{left: -40px;}
 }
-
-#background{
-    position: absolute;
-    bottom: 0;
-    background-image: url(img/background.png);
-    background-repeat: repeat-x;
-    animation: slideright 600s infinite linear;
-    width: 99%;
-    height: 200px;
-}
-
-
-
-
-
